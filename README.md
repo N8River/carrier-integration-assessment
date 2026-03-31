@@ -21,7 +21,7 @@ src/
   errors/        # CarrierError class
   types/         # Internal domain models
   validation/    # Zod schemas — validates input before any network call
-tests/           # Integration and unit tests
+  tests/           # Integration and unit tests
 ```
 
 ## Design Decisions

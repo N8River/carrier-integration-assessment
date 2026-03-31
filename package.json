@@ -1,0 +1,24 @@
+{
+  "name": "carrier-integration-service",
+  "version": "1.0.0",
+  "description": "carrier-integration-service",
+  "license": "ISC",
+  "author": "Aniket",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "axios": "^1.14.0",
+    "dotenv": "^17.3.1",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2",
+    "vitest": "^4.1.2"
+  }
+}
